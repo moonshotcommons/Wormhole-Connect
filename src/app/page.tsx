@@ -23,7 +23,7 @@ function Page() {
 
     // UI configuration
     ui: {
-      title: 'Wormhole Connect Demo',
+      title: 'Cross-Chain Reimbursement Application',
     }
   };
 

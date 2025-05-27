@@ -93,6 +93,29 @@ Wormhole Connect is a powerful cross-chain bridging tool designed to simplify as
 - **Multi-Chain Support**: Supports various blockchain networks to meet different user needs.
 - **Customizable Configuration**: Provides flexible configuration options, allowing developers to tailor it to their project requirements.
 
+### Quick Integration Example
+
+Here's how easy it is to integrate Wormhole Connect into your application:
+
+```typescript
+import { WormholeConnect } from '@wormhole-foundation/wormhole-connect';
+
+// Use in your component
+function MyComponent() {
+  return (
+    <WormholeConnect
+      config={{
+        env: 'testnet',
+        tokens: ['USDC'],
+        chains: ['ethereum', 'solana'],
+      }}
+    />
+  );
+}
+```
+
+With just these few lines of code, you can enable cross-chain transfer functionality in your application!
+
 ### Related Resources
 
 - [Wormhole Connect Official Documentation](https://wormhole.com/products/connect) - Learn about Wormhole Connect's features and API.
